@@ -14,7 +14,7 @@ assets and records the SHA-256 that Peckboard checks the download against.
 
 | Plugin | Version | What it does |
 | ------ | ------- | ------------ |
-| [Story Writer](https://github.com/firestar/peckboard-story-writer) (`story-writer`) | 0.1.1 | Per-project Story tab: setup wizard and a card-driven writing pipeline (records → pilot → cold read → owner gate → parallel chapters → review passes → export). |
+| [Story Writer](https://github.com/firestar/peckboard-story-writer) (`story-writer`) | 0.1.2 | Per-project Story tab: setup wizard and a card-driven writing pipeline (records → pilot → cold read → owner gate → parallel chapters → review passes → export). |
 
 ## Use this registry
 
