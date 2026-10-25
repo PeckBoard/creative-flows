@@ -7,7 +7,7 @@
       "description": "A per-project Story tab: a setup wizard (premise, plot, setting, characters, relationships, themes, endings, style rules, banned words; each 'I write it', 'AI drafts, I edit' or 'AI generates') and a live dashboard for a card-driven writing pipeline. Records, then a pilot chapter with a fresh-session cold read and fix, an owner approve/feedback gate, parallel chapters (each cold-read and fixed), structure/character/pacing/line/copyedit review passes and export. Chapters and records are written to story/ in the project repo.",
       "author": "firestar",
       "homepage": "https://github.com/firestar/peckboard-story-writer",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "hooks": [
         "mcp.tool.invoke",
         "http.request.before",
@@ -15,8 +15,8 @@
         "card.step.after",
         "timer.tick"
       ],
-      "url": "https://github.com/firestar/peckboard-story-writer/releases/download/v0.1.2/story-writer.wasm",
-      "sha256": "8cdfba439fcdcbd0eb37f5d86ec028f47203acf7dd8d8f9517d65b7cc6b69199",
+      "url": "https://github.com/firestar/peckboard-story-writer/releases/download/v0.1.3/story-writer.wasm",
+      "sha256": "32b74411378c3cf427029dd521a7705c8caba1e800a70bf477cc922012282e30",
       "min_peckboard": "0.1.100",
       "tags": [
         "writing",
