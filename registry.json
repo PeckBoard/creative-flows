@@ -4,10 +4,10 @@
     {
       "id": "story-writer",
       "name": "Story Writer",
-      "description": "A per-project Story tab: a setup wizard (premise, plot, setting, characters, relationships, themes, endings, style rules, banned words; each 'I write it', 'AI drafts, I edit' or 'AI generates') and a live dashboard for a card-driven writing pipeline. Records, then a pilot chapter with a fresh-session cold read and fix, an owner approve/feedback gate, parallel chapters (each cold-read and fixed), structure/character/pacing/line/copyedit review passes and export. Chapters and records are written to story/ in the project repo.",
+      "description": "A per-project Story tab: a setup wizard (premise, plot, setting, characters, relationships, themes, endings, style rules, banned words; each 'I write it', 'AI drafts, I edit' or 'AI generates') and a live dashboard for a card-driven writing pipeline. Records, then a pilot chapter with a fresh-session cold read and fix, an owner approve/feedback gate, chapters written strictly in order (each from the previous chapter's cumulative continuity handoff, then cold-read and fixed), structure/character/pacing/line/copyedit review passes and export. A Recreate cards action replaces every open pipeline card with a fresh one. Chapters and records are written to story/ in the project repo.",
       "author": "firestar",
       "homepage": "https://github.com/firestar/peckboard-story-writer",
-      "version": "0.1.4",
+      "version": "0.1.6",
       "hooks": [
         "mcp.tool.invoke",
         "http.request.before",
@@ -15,8 +15,8 @@
         "card.step.after",
         "timer.tick"
       ],
-      "url": "https://github.com/firestar/peckboard-story-writer/releases/download/v0.1.4/story-writer.wasm",
-      "sha256": "8432ef2ffddd2333767d182d1eb14cee777a7f1eda68389131e866772b1bdc5e",
+      "url": "https://github.com/firestar/peckboard-story-writer/releases/download/v0.1.6/story-writer.wasm",
+      "sha256": "7599db2e848a2bb57081b28afb2632fa386a15c2ba518411ea4e8f7587c3b088",
       "min_peckboard": "0.1.100",
       "tags": [
         "writing",
